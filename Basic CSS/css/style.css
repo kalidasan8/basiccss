@@ -1,0 +1,556 @@
+
+/*font family*/
+h1{
+        font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 34px;
+}
+
+p{
+    
+
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+/*p span{
+    font-style: italic;
+    font-weight: bold;
+    background-color: #ff0000;
+    color: black;
+}*/
+
+.intro{
+    background-color: red;
+    
+}
+/* you can use parent tag as .intro h1 or .intro > h1*/
+.intro h1 {
+    background-color: black;
+}
+/*we can use multiple class*/
+.text-white{
+    color: white;
+}
+
+.intro p span{
+    background-color: black;
+    color: aqua;
+}
+ 
+.background{
+    background-color: blue;
+    background-image: url(../image/coding.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 25px;
+}
+
+.background h1{
+    color: white;
+    padding: 5px;
+    background-color: black;
+    border-color: rgb(20, 14, 2);
+    border-top: 5px dotted blue;
+    border-left: 5px solid red;
+    border-bottom: 5px dotted orange;
+    border-right: 5px solid rgb(77, 206, 26);
+}
+
+.background form button{
+    
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(201, 51, 163);
+    border-color: rgb(20, 14, 2);
+    border-top: 5px dotted blue;
+    border-left: 5px solid red;
+    border-bottom: 5px dotted orange;
+    border-right: 5px solid rgb(77, 206, 26);
+    cursor: pointer;
+    margin: 15px;
+    padding: 5px;
+}
+/*Box Model*/
+.background p{
+    color: white;
+    background-color: black;
+padding: 10px;
+border: solid red;
+margin: 15px;
+
+}
+
+.width{
+    background-color: aqua;
+    padding: 50px;
+    width: auto;
+/*height: 20px; mostly we won't use height*/
+max-width: 650px;
+
+}
+
+.width h1{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.outline{
+    background-color: #ff0000;
+    padding: 30px;
+    border: 2px solid black;
+    outline: green dotted 10px;
+    margin: 30px;
+}
+
+.Text_formating{
+    background-color: aquamarine;
+    padding: 40px;
+    text-align: justify;
+    text-indent: 8px;
+    
+
+}
+
+.Text_formating h1{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bold;
+    text-shadow: 1px 2px black;
+    text-align: justify;
+    
+    
+}
+
+.icons{
+    background-color: aquamarine;
+    padding: 40px;
+}
+
+.Links{
+    background-color: rgb(204, 134, 134);
+    padding: 40px;
+}
+
+.Links a{
+    color: red;
+}
+
+/*.Links a:link{
+    color: blue;
+}*/
+
+.Links a:visited{
+    color: rgb(182, 31, 137);
+}
+
+.Links a:hover{
+    color: rgb(10, 2, 17);
+    font-size: 20px;
+
+}
+
+.Links a:active{
+    color: chartreuse;
+}
+
+.csl{
+    background-color: coral;
+    padding: 40px;
+}
+
+ol{
+    background-color: aqua;
+    padding: 20px;
+}
+
+.csl ol li{
+    list-style-position: inside;
+    background-color: #ff0000;
+    padding: 2px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 10px;
+    list-style-image: url(../image/ttt.png);
+    
+    
+}
+
+.tables {
+    background-color: rgb(243, 112, 60);
+    padding: 40px;
+    text-align: justify;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid rgb(17, 7, 7);
+color: white;
+}
+
+th{
+    padding: 15px;
+    color: black;
+    background-color: #e67e7e;
+}
+
+td{
+    padding: 15px;
+}
+
+tr:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+
+tr:nth-child(even){
+    background-color: rgb(161, 137, 100);
+}
+
+.display
+{
+    background-color: aqua;
+    padding: 40px;
+}
+
+.display ul{
+    text-align: right;
+}
+
+
+.display li{
+    
+    display: inline;
+    padding: 5px;
+    font-weight: bold;
+    
+    
+}
+
+.display ul li a{
+    color: black;
+    text-decoration: none;
+}
+
+.hidden{
+    /*display: none;*/
+    visibility: hidden;
+}
+
+.mt-5{
+    margin-top: 10px;
+}
+
+
+
+.sticky{
+    background-color: rgb(215, 233, 50);
+    padding: 10px;
+    border: solid red;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 1;
+   
+}
+
+
+
+
+.static{
+    position: static;
+    
+    border: solid green;
+    /*left or right wont work for static*/
+}
+
+
+.relative{
+    border: solid green;
+    position: relative;
+    left: 20px;
+    
+}
+
+/*.fixed{
+    border: solid rgb(226, 15, 121);
+  
+    position: fixed;
+    background-color: rgb(73, 119, 219);
+    bottom: 0;
+    
+    width: auto;
+    left:0px;
+    right: 0px;
+    text-align: center;
+    border-width: 5px;
+}*/
+
+.relative1{
+    background-color: rgb(73, 119, 219);
+    border: solid red;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 5%;
+    z-index: -1;
+   
+    
+  
+}
+
+.absolute{
+    position: absolute;
+    border: solid rgb(228, 203, 62);
+    padding: 5px;
+    margin: 20px;
+    left: 20px;
+    top: 80px;
+    
+}
+
+.float{
+    background-color: gray;
+    padding: 100px;
+    
+    margin-bottom: 50px;
+    text-align: justify;
+    
+    
+}
+
+.float img{
+    width: 250px;
+    background-color: rgb(236, 198, 127);
+    float: right;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.floatag{
+    margin-bottom: 250px;
+}
+.floatag div{
+    padding: 10px;
+    border: 1px solid;
+    width: 100px;
+    font-weight: bold;
+
+}
+
+
+
+
+
+.grean{
+    float: left;
+    background-color: green;
+}
+
+.brown{
+    float: left;
+    background-color: brown;
+}
+
+.blue{
+    float: left;
+    background-color: blue;
+}
+
+.yellow{
+    float: right;
+    background-color: yellow;
+}
+
+.red{
+    float: right;
+    background-color: #ff0000;
+}
+
+.orange{
+    float: right;
+    background-color: orange;
+}
+
+.purple{
+    float: left;
+    background-color: purple;
+}
+
+.clearboth{
+    clear: both;
+}
+
+.weblayout h1{
+    text-align: center;
+}
+.weblayout > div{
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.navbar{
+    
+    background-color: green;
+}
+
+.menu{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+     background-color: rgb(238, 91, 238);
+ }
+ .content{
+     float: left;
+     width: 33.33%;
+     height: 200px;
+     background-color: rgb(109, 109, 241);
+ }
+ .sidebar{
+     float: left;
+     width: 33.33%;
+     height: 200px;
+     background-color: orangered;
+ }
+
+ .footer{
+    
+
+     background-color: brown;
+ }
+
+ .im1{
+     float: left;
+ }
+
+ .list1{
+     float: left;
+ }
+
+ div h3{
+     color: white;
+ }
+
+ .list1 > ol{
+     background: none;
+     font-size: 30px;
+     margin-left: 20px;
+ }
+
+.clearfix{
+     clear: both;
+ }
+/*it will apply css to outside of div tag for one tag only*/
+/* #combsel + h2{
+color: #ff0000;
+ }*/
+
+
+/*it will apply css property to all tag that outside the div tag*/
+ #combsel ~ h2{
+    color: #ff0000;
+    
+     }
+
+     .pseudo > p::first-line{
+         color: #ff0000;
+     }
+
+     ::selection{
+         color: white;
+         background-color: green;
+     }
+     .pseudo > h1::after{
+
+content: " :)";
+     }
+
+     .pseudo > h1::before{
+
+        content: ":@ ";
+             }
+
+             .opacity{
+                 width: 250px;
+                 background-color: black;
+             }
+
+             .opacity > img{
+                 opacity: 0.4;
+             }
+     .opacity > img:hover{
+         opacity: 1;
+     }
+
+     span[title]{
+         background-color: antiquewhite;
+     }
+
+     span a[target="_blank"]{
+         background-color: cadetblue;
+     }
+
+     [title~="india"]{
+         color: rgb(49, 175, 169);
+     }
+
+     [title~="srilanka"]{
+        color: rgb(243, 46, 184);
+    }
+[class|="content"]{
+    color: rgb(107, 54, 207);
+}
+
+[class^="contet"]{
+    color:
+    red ;
+}
+
+[class*="left"]{
+    background-color: aquamarine;
+}
+
+[class*="-"]{
+    text-decoration: underline;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 12px 20px ;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+
+input[type="email"]{
+    width: 100%;
+    padding: 12px 20px ;
+    margin: 15px 0;
+    border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+
+}
+
+button[type="submit"]{
+width: 100%;
+background-color: rgb(240, 76, 226);
+color: #fff;
+padding: 14px 20px;
+border: none;
+margin: 8px 0;
+border-radius: 4px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover
+{
+    background-color: #e67e7e;
+}
